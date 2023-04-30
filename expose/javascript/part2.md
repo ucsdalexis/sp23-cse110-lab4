@@ -27,6 +27,7 @@
     d. `student['Favorite Teacher'].name` <br> 
     e. `student.courseLoad[0]` <br>
 
+
 ## Basic Operators & Type Conversion
 13. a. ‘3’ + 2 <br> `32` is the output. This is because integers map to their exact string representation.<br>
     b. ‘3’ - 2 <br> `1` is the output. This is because subtraction tries to convert both operands to numbers.<br>
@@ -43,3 +44,11 @@
     e. true == 2 <br> `false` is the output. This is because true is changed to 1 and 1 is not equal to 2. <br>
     f. true === Boolean(2) <br> `true` is the output. This is because Boolean(2) is converted to true and true is equal to true. <br>
 15. The double equality sign `==` means the equality test while converting the values to numbers when comparing different values. On the other hand, a strict equality operator `===` checks the equality without type conversion. <br>
+
+
+## Function
+17. `[ 2, 4, 6 ]` is the result. The function `modifyArray` takes an array and preforms the function `doSomething` on every single item in the array which was passed through the parameters of `modifyArray`.
+
+
+## setInterval(), setTimeout(), clearTimeout()
+19. `1` <br> `4` <br> `3` <br> `2` <br>
